@@ -1,0 +1,50 @@
+{
+    "equipos": [
+        {
+            "nombre": "Boca Juniors",
+            "escudo": "assets/boca.png"
+        },
+        {
+            "nombre": "River Plate",
+            "escudo": "assets/river.png"
+        },
+        {
+            "nombre": "Independiente",
+            "escudo": "assets/independiente.png"
+        },
+        {
+            "nombre": "Racing Club",
+            "escudo": "assets/racing.png"
+        },
+        {
+            "nombre": "San Lorenzo",
+            "escudo": "assets/sanlorenzo.png"
+        },
+        {
+            "nombre": "Rosario Central",
+            "escudo": "assets/rosario.png"
+        },
+        {
+            "nombre": "Tiro Federal",
+            "escudo": "assets/tirofederal.png"
+        },
+        {
+            "nombre": "Vélez Sarsfield",
+            "escudo": "assets/velez.png"
+        },
+        {
+            "nombre": "Estudiantes",
+            "escudo": "assets/estudiantes.png"
+        },
+        {
+            "nombre": "Gimnasia",
+            "escudo": "assets/gimnasia.png"
+        }
+    ],
+    "posiciones": [
+        "Arquero",
+        "Defensor",
+        "Volante",
+        "Delantero"
+    ]
+}

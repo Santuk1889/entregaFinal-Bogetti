@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Jugadores - Liga X</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <header>
+        <a class="navbar-brand" href="index.html">
+            <img class="imagen-zoom" src="assets/logo.png" alt="Logo de la Liga X">
+        </a>
+    </header>
+
+    <h1>Gestor de Jugadores Liga X</h1>
+
+    <div class="contenedor">
+        <div class="formulario">
+            <input type="text" id="nombre" placeholder="Nombre del jugador">
+            <input type="number" id="edad" placeholder="Edad">
+            <select id="equipo"></select>
+            <select id="posicion"></select>
+            <input type="file" id="avatar" accept="image/*">
+            <button id="agregarJugador">Agregar Jugador</button>
+        </div>
+
+        <div class="lista">
+            <div class="acciones">
+                <button id="guardar">Guardar Jugadores</button>
+                <button id="recuperar">Recuperar Jugadores</button>
+                <button id="borrar">Borrar Jugadores</button>
+                <button id="vaciar">Vaciar Lista</button>
+            </div>
+            <div class="filtros">
+                <select id="filtroEquipo">
+                    <option value="">Filtrar por equipo</option>
+                </select>
+                <select id="filtroPosicion">
+                    <option value="">Filtrar por posición</option>
+                </select>
+                <button id="aplicarFiltros">Aplicar Filtros</button>
+            </div>
+            <div class="orden">
+                <button id="ordenarPorEdad">Ordenar por Edad</button>
+                <button id="ordenarPorEquipo">Ordenar por Equipo</button>
+                <button id="ordenarPorPosicion">Ordenar por Posición</button>
+            </div>
+            <div id="listaJugadores"></div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Liga X. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="js/app.js"></script>
+    <script src="js/storage.js"></script>
+</body>
+</html>
