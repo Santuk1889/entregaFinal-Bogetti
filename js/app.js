@@ -4,7 +4,7 @@ let posiciones = [];
 
 async function fetchData() {
     try {
-        const response = await fetch('db/data.json');
+        const response = await fetch('./db/data.json');
         const data = await response.json();
         equipos = data.equipos;
         posiciones = data.posiciones;
